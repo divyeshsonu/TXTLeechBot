@@ -11,7 +11,7 @@ from pyrogram.types import Message
 import pyrogram
 import tgcrypto
 from p_bar import progress_bar
-from details import api_id, api_hash, bot_token
+#from details import api_id, api_hash, bot_token
 from subprocess import getstatusoutput
 import helper
 import logging
@@ -55,9 +55,9 @@ logging = logging.getLogger()
 
 
 bot = Client("bot",
-             bot_token=os.environ.get("BOT_TOKEN"),
-             api_id=(os.environ.get("API_ID")),
-             api_hash=os.environ.get("API_HASH"))
+             bot_token=os.environ.get("7924605822:AAFc7To_ndjnk47DTPZKRu4apXTGYQiXwks"),
+             api_id=(os.environ.get("28187462")),
+             api_hash=os.environ.get("0159fbade6b803a808fbc5e248d52b87"))
 auth_users = [1291491834]
 sudo_users = auth_users
 sudo_groups = [-4548932679]
